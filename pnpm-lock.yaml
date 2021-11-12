@@ -1,0 +1,21 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/a:
+    specifiers: {}
+
+  packages/b:
+    specifiers:
+      '@parligerly/a': ^0.0.1
+    dependencies:
+      '@parligerly/a': 0.0.1
+
+packages:
+
+  /@parligerly/a/0.0.1:
+    resolution: {integrity: sha512-+YEvjBmjfanXvU7yWynOpjgmCtMvXMr1GIqy4gNXhwoe7KU/S/5SCczvDv4iH8GkvjxOzqe+ZJ7bWjjasQ1PLA==}
+    dev: false
