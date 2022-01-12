@@ -1,6 +1,6 @@
 {
   "name": "@parligerly/b",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "@parligerly/a": "workspace:^"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
